@@ -22,7 +22,7 @@ importers:
   packages/examples:
     dependencies:
       float-ball:
-        specifier: 1.0.0-alpha.8
+        specifier: 1.0.0-alpha.11
         version: link:../float-ball
       react:
         specifier: ^18.2.0

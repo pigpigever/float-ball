@@ -1,3 +1,5 @@
 .turbo
 
 .idea
+
+node_modules
