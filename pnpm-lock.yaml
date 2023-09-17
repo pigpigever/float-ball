@@ -22,7 +22,7 @@ importers:
   packages/examples:
     dependencies:
       float-ball:
-        specifier: 1.0.0-alpha.7
+        specifier: 1.0.0-alpha.8
         version: link:../float-ball
       react:
         specifier: ^18.2.0
@@ -46,6 +46,9 @@ importers:
       webpack:
         specifier: ^5.88.2
         version: 5.88.2(webpack-cli@5.1.4)
+      webpack-cli:
+        specifier: ^5.1.4
+        version: 5.1.4(webpack-dev-server@4.15.1)(webpack@5.88.2)
       webpack-dev-server:
         specifier: ^4.15.1
         version: 4.15.1(webpack-cli@5.1.4)(webpack@5.88.2)

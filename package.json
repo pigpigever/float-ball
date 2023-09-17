@@ -10,22 +10,8 @@
   "devDependencies": {
     "turbo": "^1.10.14"
   },
-  "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
     "turbo-darwin-arm64": "^1.10.14",
     "eslint-scope": "^5.1.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pigpigever/float-ball.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pigpigever/float-ball/issues"
-  },
-  "homepage": "https://github.com/pigpigever/float-ball#readme",
-  "description": ""
+  }
 }
