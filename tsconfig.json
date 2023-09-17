@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",                     // 目标ES版本
+    "module": "commonjs",                // 模块系统
+    "jsx": "react-jsx",                      // 支持React JSX语法
+    "strict": true,                      // 启用严格模式
+    "esModuleInterop": true,             // 启用esModuleInterop以避免模块间的默认导入错误
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,                 // 避免检查声明文件（.d.ts）
+    "declaration": true, // 启用类型声明文件生成
+    "declarationDir": "./dist", // 指定类型声明文件的输出目录
+  },
+  "include": [
+    "src/**/*.ts",                      // TypeScript源文件
+    "src/**/*.tsx",                     // TypeScript源文件
+    "src/**/*.d.ts"                     // TypeScript声明文件
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
